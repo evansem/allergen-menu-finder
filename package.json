@@ -1,0 +1,25 @@
+{
+  "name": "allergen-menu-finder",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Explores restaurant websites as a hypothesis and evidence graph to find published allergen information",
+  "type": "module",
+  "scripts": {
+    "amf": "tsx src/cli.ts",
+    "lint": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.10.0",
+    "node-html-parser": "9.0.7",
+    "pdfjs-dist": "6.4.299",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.1.1"
+  },
+  "engines": { "node": ">=24" }
+}
